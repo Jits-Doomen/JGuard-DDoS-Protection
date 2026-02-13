@@ -1,0 +1,11 @@
+# IntelliJ temporary files and settings
+.idea/
+*.iml
+*.iws
+
+# Maven build output
+target/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
