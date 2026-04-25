@@ -1,4 +1,4 @@
-# ShieldGuard-DDoS-Protection
+# JGuard-DDoS-Protection
 
 A lightweight, Java-based defensive utility designed to mitigate Layer 7 (Application Layer) DDoS attacks using rate-limiting.
 
