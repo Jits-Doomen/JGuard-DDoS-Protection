@@ -1,10 +1,10 @@
 package com.jguard;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 public interface StorageProvider {
-    AtomicInteger getRequestCount(String ip);
-    void blacklist(String ip);
+    int incrementAndGetIpCount(String ip, long windowMs);
+    void blacklist(String ip, long durationMs);
     boolean isBlacklisted(String ip);
+    int incrementAndGetGlobalCount(long windowMs);
     void resetGlobal();
+    void shutdown();
 }
